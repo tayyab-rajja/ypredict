@@ -5,17 +5,6 @@ const Video = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const gifRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.addEventListener('pause', () => {
-        videoRef.current.classList.add('hidden');
-        gifRef.current.classList.remove('hidden');
-        videoRef.current.controls = false;
-        videoRef.current.pause();
-      });
-    }
-  }, []);
-
   return (
     <div className="basis-[45%]">
       <div className="">
