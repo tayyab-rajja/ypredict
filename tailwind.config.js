@@ -14,6 +14,7 @@ module.exports = {
         skin: {
           pink: '#f327f2',
           softDark: '#171b26',
+          white: '#fcfcfc',
         },
       },
     },

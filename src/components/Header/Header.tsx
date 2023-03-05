@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { RiMenu2Line } from 'react-icons/ri';
 const Header: React.FC = () => {
   return (
-    <header className="main-container px-4 lg:px-0 py-6 flex justify-between">
+    <header className="main-container  py-6 flex justify-between">
       <div className="logo">
         <Image
           src={'/ypred-coin.png'}

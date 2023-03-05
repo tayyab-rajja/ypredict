@@ -23,3 +23,21 @@
     color: #fcfcfc;
   }
 }
+.slick-arrow {
+  display: none !important;
+}
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 14px !important;
+  line-height: 20px;
+
+  width: 35px !important;
+  height: 35px !important;
+
+  opacity: 0.25;
+  color: white !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: purple !important;
+}
