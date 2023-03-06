@@ -128,5 +128,5 @@
   transform: scale(0.94);
 }
 .patterns {
-  background: url(../../public/img/pattern.png) no-repeat top/100% 100%;
+  background: url(../assets/pattern.png) no-repeat top/100% 100%;
 }
