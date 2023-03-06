@@ -1,6 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-const Card = ({ img, name }) => {
+
+interface CardProps {
+  img: any;
+  name: string;
+}
+
+const Card: React.FC<CardProps> = ({ img, name }) => {
   return (
     <div className="bg-[#191d27]  rounded-2xl p-3">
       <Image

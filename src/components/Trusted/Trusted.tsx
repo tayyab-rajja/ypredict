@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import smileLight from '../../../public/img/smile-light.png';
-
+import Card from './Card';
 const Trusted = () => {
   return (
     <div className="main-container">
@@ -14,36 +14,14 @@ const Trusted = () => {
         </div>
         <div className="basis-[40%]">
           <div className="grid space-x-5 grid-cols-2">
-            <div className="bg-[#191d27]  rounded-2xl p-3">
-              <Image
-                src="/img/icon/settings.png"
-                alt="setting"
-                className="block mx-auto "
-                width={100}
-                height={80}
-              />
-              <div className="flex space-x-2">
-                <hr className="w-[4px] rounded-3xl h-[70px] bg-skin-pink block" />
-                <h2 className="text-base text-white font-normal">
-                  A.I predictions by top 1% experts for your favorite coins
-                </h2>
-              </div>
-            </div>
-            <div className="bg-[#191d27]  rounded-2xl p-3">
-              <Image
-                src="/img/icon/graph.png"
-                alt="setting"
-                className="block mx-auto "
-                width={100}
-                height={80}
-              />
-              <div className="flex space-x-2">
-                <hr className="w-[4px] rounded-3xl h-[70px] bg-skin-pink block" />
-                <h2 className="text-base text-white font-normal">
-                  A.I predictions by top 1% experts for your favorite coins
-                </h2>
-              </div>
-            </div>
+            <Card
+              img="/img/icon/settings.png"
+              name=" A.I predictions by top 1% experts for your favorite coins"
+            />
+            <Card
+              img="/img/icon/graph.png"
+              name="A.I predictions by top 1% experts for your favorite coins"
+            />
           </div>
         </div>
       </div>
