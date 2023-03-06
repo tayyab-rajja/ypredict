@@ -7,6 +7,8 @@ import Header from '@/components/Header/Header';
 import HeroSection from '@/components/Hero/HeroSection';
 import Spomsors from '@/components/Sponsors';
 import Carousel from '@/components/Carousel/Carousel';
+import PlatformFeatures from '@/components/Features/Features';
+import Trusted from '@/components/Trusted/Trusted';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -24,6 +26,8 @@ export default function Home() {
         <HeroSection />
         <Spomsors />
         <Carousel />
+        <PlatformFeatures />
+        <Trusted />
       </>
     </>
   );
