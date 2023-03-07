@@ -3,8 +3,8 @@ import { whyInvesting } from '@/constant';
 import Image from 'next/image';
 const WhyInvesting = () => {
   return (
-    <div id="why_investing" className="main-container relative py-12">
-      <div className="hidden lg:block absolute -z-10 left-0 top-[10%] right-0">
+    <div id="why_investing" className="main-container relative mt-10 py-20">
+      <div className="hidden lg:block absolute -z-10 left-0 top-[20%] right-0">
         <Image
           src={'/img/icon/light2.png'}
           width={350}

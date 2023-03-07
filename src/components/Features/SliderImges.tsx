@@ -2,42 +2,37 @@ import React from 'react';
 
 const VerticalImageSlider = () => {
   return (
-    <div className="wrapper">
-      <div className="outer">
-        <div
-          className="card"
-          style={{ '--delay': '-1' } as React.CSSProperties}
-        >
-          <div className="content">
-            <img src="/img/features/1.jpg" alt="" />
-          </div>
-        </div>
-        <div className="card" style={{ '--delay': '0' } as React.CSSProperties}>
-          <div className="content">
-            <img src="/img/features/2.png" alt="" />
-          </div>
-        </div>
-        <div className="card" style={{ '--delay': '1' } as React.CSSProperties}>
-          <div className="content">
-            <img src="/img/features/3.png" alt="" />
-          </div>
-        </div>
-        <div className="card" style={{ '--delay': '2' } as React.CSSProperties}>
-          <div className="content">
-            <img src="/img/features/4.jpeg" alt="" />
-          </div>
-        </div>
-        <div className="card" style={{ '--delay': '3' } as React.CSSProperties}>
-          <div className="content">
-            <img src="/img/features/5.jpg" alt="" />
-          </div>
-        </div>
-        <div className="card" style={{ '--delay': '4' } as React.CSSProperties}>
-          <div className="content">
-            <img src="/img/features/6.png" alt="" />
-          </div>
-        </div>
-      </div>
+    <div className="features-image-section ">
+      <img
+        src="img/features/pink.png"
+        className="feature-image pink"
+        alt="pink image"
+      />
+      <img
+        src="img/features/green.png"
+        className="feature-image green"
+        alt="green image"
+      />
+      <img
+        src="img/features/yellow.png"
+        className="feature-image yellow"
+        alt="yellow image"
+      />
+      <img
+        src="img/features/purple.png"
+        className="feature-image purple"
+        alt="purple image"
+      />
+      <img
+        src="img/features/blue.png"
+        className="feature-image blue"
+        alt="blue image"
+      />
+      <img
+        src="img/features/orange.png"
+        className="feature-image orange"
+        alt="orange image"
+      />
     </div>
   );
 };

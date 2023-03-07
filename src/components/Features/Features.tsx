@@ -11,7 +11,7 @@ const Features = () => {
         <div className="flex flex-col space-y-4">
           <Card items={features} />;
         </div>
-        <div className="h-full relative">
+        <div className="h-full overflow-hidden relative">
           <VerticalImageSlider />
         </div>
       </div>

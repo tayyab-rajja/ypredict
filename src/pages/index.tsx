@@ -10,6 +10,12 @@ import Carousel from '@/components/Carousel/Carousel';
 import PlatformFeatures from '@/components/Features/Features';
 import Trusted from '@/components/Trusted/Trusted';
 import WhyInvesting from '@/components/WhyInvesting/WhyInvesting';
+import Tokenomics from '@/components/Tokenomics/Tokenomics';
+import Team from '@/components/Team/Team';
+import Testimonial from '@/components/Testimonial/Testimonial';
+import Whitepaper from '@/components/Whitepaper/Whitepaper';
+import Footer from '@/components/Footer/Footer';
+import Comparison from '@/components/comparison/Comparison';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -28,8 +34,14 @@ export default function Home() {
         <Spomsors />
         <Carousel />
         <PlatformFeatures />
+        <Comparison />
         <Trusted />
         <WhyInvesting />
+        <Tokenomics />
+        <Team />
+        <Testimonial />
+        <Whitepaper />
+        <Footer />
       </>
     </>
   );
