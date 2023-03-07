@@ -1,4 +1,4 @@
-import { Feature } from './types';
+import { Feature, whyInvest } from './types';
 import featureImg1 from '../public/img/icon/feature1.png';
 import featureImg2 from '../public/img/icon/feature2.png';
 import featureImg3 from '../public/img/icon/feature3.png';
@@ -26,5 +26,28 @@ export const features: Feature[] = [
     subTitle:
       'real-time trading signals from cutting edge predictive models by top 1% AI experts.',
     image: featureImg4,
+  },
+];
+
+export const whyInvesting: whyInvest[] = [
+  {
+    title: '10-100x Potential',
+    descripetion:
+      'Similar projects with far inferior offerings share a token mc of 50-100m at bare minimum, where YPREDS are designed with only 4.5m MC at listing.',
+  },
+  {
+    title: 'Upto 45% / Quarterly Staking Rewards',
+    descripetion:
+      'Similar projects with far inferior offerings share a token mc of 50-100m at bare minimum, where YPREDS are designed with only 4.5m MC at listing.',
+  },
+  {
+    title: 'Lifetime Free Predictions',
+    descripetion:
+      'Similar projects with far inferior offerings share a token mc of 50-100m at bare minimum, where YPREDS are designed with only 4.5m MC at listing.',
+  },
+  {
+    title: 'Huge Discounts',
+    descripetion:
+      'Similar projects with far inferior offerings share a token mc of 50-100m at bare minimum, where YPREDS are designed with only 4.5m MC at listing.',
   },
 ];

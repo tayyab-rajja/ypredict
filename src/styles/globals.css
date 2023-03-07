@@ -41,9 +41,6 @@
   opacity: 0.75;
   color: purple !important;
 }
-.slick-list {
-  height: 600px !important;
-}
 
 /* vertical */
 .wrapper {
@@ -130,3 +127,7 @@
 .patterns {
   background: url(../assets/pattern.png) no-repeat top/100% 100%;
 }
+/* #why_investing {
+  background-image: url(../../public/img/icon/light2.png);
+  @apply bg-no-repeat bg-center h-[400px];
+} */

@@ -6,3 +6,7 @@ export interface Feature {
 export interface VerticalImageSliderProps {
   image: any;
 }
+export interface whyInvest {
+  title: string;
+  descripetion: string;
+}

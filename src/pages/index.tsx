@@ -9,6 +9,7 @@ import Spomsors from '@/components/Sponsors';
 import Carousel from '@/components/Carousel/Carousel';
 import PlatformFeatures from '@/components/Features/Features';
 import Trusted from '@/components/Trusted/Trusted';
+import WhyInvesting from '@/components/WhyInvesting/WhyInvesting';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -28,6 +29,7 @@ export default function Home() {
         <Carousel />
         <PlatformFeatures />
         <Trusted />
+        <WhyInvesting />
       </>
     </>
   );

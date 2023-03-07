@@ -7,7 +7,7 @@ import Image from 'next/image';
 const Features = () => {
   return (
     <section className="main-container">
-      <div className="grid gap-4  grid-cols-2">
+      <div className="grid gap-4  grid-cols-1 lg:grid-cols-2">
         <div className="flex flex-col space-y-4">
           <Card items={features} />;
         </div>
@@ -15,9 +15,9 @@ const Features = () => {
           <VerticalImageSlider />
         </div>
       </div>
-      <div className="grid space-x-7 my-10 grid-cols-1 md:grid-cols-2">
+      <div className="grid mt-[18rem] lg:mt-11 space-y-5 space-x-0 lg:space-x-7 my-10 grid-cols-1 lg:grid-cols-2">
         <Patterns />
-        <div className="bg-[#121621] p-4 space-y-3 rounded-3xl">
+        <div className="bg-[#121621] mx-auto mt-16 p-4 rounded-3xl">
           <h2 className="text-[1.2em]  font-medium  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
             Patent-Pending Pattern Recognition algorithm
           </h2>
@@ -30,7 +30,7 @@ const Features = () => {
           </p>
         </div>
       </div>
-      <div className="py-5 grid space-x-7 my-10 grid-cols-1 md:grid-cols-2">
+      <div className="py-5 grid space-x-7 my-10 grid-cols-1 lg:grid-cols-2">
         <div className="flex space-x-5">
           <div>
             <Image

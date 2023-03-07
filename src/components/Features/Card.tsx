@@ -25,7 +25,9 @@ const Card: React.FC<Props> = ({ items }) => {
                 />
               </div>
               <div className="flex flex-col space-y-1">
-                <h2 className="text-2xl font-semibold text">{item.titile}</h2>
+                <h2 className="text-lg lg:text-2xl font-medium text">
+                  {item.titile}
+                </h2>
                 <p className="text-xs font-light">{item.subTitle}</p>
               </div>
             </div>
