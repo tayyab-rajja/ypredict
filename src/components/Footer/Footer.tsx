@@ -83,6 +83,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
         <div className="copyright pt-44 pb-3">
           <p className="text-white text-center font-normal">
             © 2023 All right reserved by yPredict.ai

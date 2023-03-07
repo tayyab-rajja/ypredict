@@ -22,6 +22,18 @@
     -webkit-text-stroke: 3px #d23999;
     color: #fcfcfc;
   }
+  .shadow-gradient {
+    /* background: radial-gradient(
+      46.45% 35.45% at 50% 46.16%,
+      rgba(1, 9, 80, 0.9) 3.12%,
+      rgba(14, 17, 32, 0) 100%
+    ); */
+    background: radial-gradient(
+      61.45% 58.45% at 49% 51.16%,
+      rgba(94, 25, 98, 97),
+      rgba(63, 85, 48, 0) 100%
+    );
+  }
 }
 /* Table */
 
