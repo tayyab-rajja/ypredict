@@ -2,7 +2,7 @@ import React from 'react';
 
 const Count = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between main-container">
       <div>
         <h1 className="text-3xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#7940dd] to-[#c33ba6]">
           100M

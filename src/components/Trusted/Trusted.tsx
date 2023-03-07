@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import smileLight from '../../../public/img/smile-light.png';
+import gradientImg from '../../../public/img/features/gradient.png';
 import Card from './Card';
 const Trusted = () => {
   return (
@@ -59,6 +60,13 @@ const Trusted = () => {
               name="A.I predictions by top 1% experts for your favorite coins"
             />
           </div>
+        </div>
+        <div className="absolute top-[12%] left-0 lg:left-[42%]">
+          <Image
+            alt="gradient"
+            className="lg:max-w-[550px] "
+            src={gradientImg}
+          />
         </div>
       </div>
     </div>

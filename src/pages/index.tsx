@@ -16,7 +16,7 @@ import Testimonial from '@/components/Testimonial/Testimonial';
 import Whitepaper from '@/components/Whitepaper/Whitepaper';
 import Footer from '@/components/Footer/Footer';
 import Comparison from '@/components/comparison/Comparison';
-
+import MobileMenu from '@/components/Header/MobileMenu';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -30,9 +30,12 @@ export default function Home() {
       </Head>
       <>
         <Header />
+        <MobileMenu />
         <HeroSection />
-        <Spomsors />
-        <Carousel />
+        <div className="relative">
+          <Spomsors />
+          <Carousel />
+        </div>
         <PlatformFeatures />
         <Comparison />
         <Trusted />

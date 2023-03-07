@@ -5,3 +5,6 @@
   margin: 0 2%;
   padding: 1rem;
 }
+div#__next {
+  overflow: hidden;
+}

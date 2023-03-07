@@ -2,9 +2,9 @@ import Image from 'next/image';
 import Count from './Count';
 const Spomsors = () => {
   return (
-    <div className="main-container">
+    <div className="relative">
       <Count />;{/* Sponsor */}
-      <div className="py-5">
+      <div className="py-5 main-container">
         <h2 className="text-center text-white font-semibold ">
           POWERING TOOLS AND INTEGRATIONS FROM COMPANIES ALL AROUND THE WORLD
         </h2>

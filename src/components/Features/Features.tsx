@@ -3,12 +3,13 @@ import Card from './Card';
 import { features } from '@/constant';
 import VerticalImageSlider from './SliderImges';
 import gradientShape from '../../../public/img/icon/gradientShape.png';
+
 import Patterns from '../Patterns/Patterns';
 import Image from 'next/image';
 const Features = () => {
   return (
     <section className=" ">
-      <div className="grid gap-4 main-container  grid-cols-1 lg:grid-cols-2">
+      <div className="grid gap-4 main-container h-full grid-cols-1 lg:grid-cols-2">
         <div className="flex flex-col space-y-4">
           <Card items={features} />;
         </div>
@@ -17,7 +18,7 @@ const Features = () => {
         </div>
       </div>
       <div className="relative">
-        <div className="grid mt-[18rem] main-container lg:mt-11 space-y-5 space-x-0 lg:space-x-7 my-10 grid-cols-1 lg:grid-cols-2">
+        <div className="grid mt-[3rem] main-container lg:mt-11 space-y-5 space-x-0 lg:space-x-7 my-10 grid-cols-1 lg:grid-cols-2">
           <Patterns />
           <div className="bg-[#121621] mx-auto mt-16 p-4 rounded-3xl">
             <h2 className="text-[1.2em]  font-medium  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">

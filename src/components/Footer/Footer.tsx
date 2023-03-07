@@ -2,9 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Logo from '../../../public/ypred-coin.png';
+import gradientImg from '../../../public/img/footer_gradient.png';
 const Footer = () => {
   return (
-    <footer className="border-t border-[#646464] ">
+    <footer className="border-t relative border-[#646464] ">
       <div className="main-container pt-8">
         <div className="flex flex-col gap-5 lg:flex-row justify-between">
           <div className="basis-[35%] space-y-3">
@@ -88,6 +89,15 @@ const Footer = () => {
           <p className="text-white text-center font-normal">
             © 2023 All right reserved by yPredict.ai
           </p>
+        </div>
+      </div>
+      <div className="flex justify-center">
+        <div className="absolute  bottom-0">
+          <Image
+            className="max-w-[850px]"
+            src={gradientImg}
+            alt="tarifalhasan@gmail.com"
+          />
         </div>
       </div>
     </footer>

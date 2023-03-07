@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { RiMenu2Line } from 'react-icons/ri';
+
 const Header: React.FC = () => {
   return (
-    <header className="main-container  py-6 flex justify-between">
+    <header className="main-container hidden lg:flex  py-6  justify-between">
       <div className="logo">
         <Image
           src={'/ypred-coin.png'}
@@ -41,7 +41,6 @@ const Header: React.FC = () => {
             </button>
           </li>
         </ul>
-        <RiMenu2Line size={25} className="block text-white lg:hidden" />
       </nav>
     </header>
   );

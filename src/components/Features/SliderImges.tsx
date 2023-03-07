@@ -2,7 +2,7 @@ import React from 'react';
 
 const VerticalImageSlider = () => {
   return (
-    <div className="features-image-section ">
+    <div className="features-image-section min-h-[400px]">
       <img
         src="img/features/pink.png"
         className="feature-image pink"

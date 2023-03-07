@@ -271,10 +271,3 @@
 .card a:hover {
   transform: scale(0.94);
 }
-.patterns {
-  background: url(../assets/pattern.png) no-repeat top/100% 100%;
-  min-height: 110px;
-  max-width: 504px;
-  margin: 0 2%;
-  padding: 1rem;
-}
