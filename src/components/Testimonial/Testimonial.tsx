@@ -33,12 +33,18 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className="basis-[25%]">
+      <div className="text-center lg:text-left basis-[25%]">
         <Image
-          className="mx-auto max-w-[190px]"
+          className="mx-auto pb-2 max-w-[190px]"
           src={testimonal1}
           alt="tarif"
         />
+        <h2 className="text-[1em] md:text-[1.6em] font-bold  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
+          Tokenomics
+        </h2>
+        <p className="text-white text-base font-medium">
+          Quant at Hillhouse Capital
+        </p>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import React from 'react';
 const Tokenomics = () => {
   return (
     <section className="main-container">
-      <header className="md:flex justify-between items-center">
+      <header className="md:flex justify-between py-2 items-center">
         <h2 className="text-[1em] md:text-[1.8em] font-bold  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
           Tokenomics
         </h2>
