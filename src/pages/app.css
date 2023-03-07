@@ -1,9 +1,6 @@
 .patterns {
   background: url(../assets/pattern.png) no-repeat top/100% 100%;
   min-height: 110px;
-  max-width: 504px;
-  margin: 0 2%;
-  padding: 1rem;
 }
 div#__next {
   overflow: hidden;
