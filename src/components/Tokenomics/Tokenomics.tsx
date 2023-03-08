@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
+import privateImg from "../../../public/img/icon/private-sale-row-image.svg"
+import preImg from "../../../public/img/icon/pre-sale-row-image.svg"
+import publicImg from "../../../public/img/icon/public-sale-row-image.svg"
+
 const allocVestingData = [
   {
     allocatedTo: 'Private Sale',
@@ -72,8 +77,8 @@ const Tokenomics = () => {
   const [tab, setTap] = useState(1);
 
   return (
-    <section className="main-container">
-      <header className="md:flex justify-between py-2 items-center">
+    <section className="main-container py-4">
+      <header className="md:flex justify-between py-4 items-center">
         <h2 className="text-[1em] md:text-[1.8em] font-bold  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
           Tokenomics
         </h2>
@@ -85,7 +90,8 @@ const Tokenomics = () => {
               id="sale-tab-1"
               onClick={() => setTap(1)}
             >
-              <span className="relative w-full px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white ">
+              <span className="relative w-full px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0 ">
+                <span className=''></span>
                 <div className="flex w-full items-center gap-2">
                   Sale Details
                 </div>
@@ -97,7 +103,7 @@ const Tokenomics = () => {
               onClick={() => setTap(2)}
               className="relative  w-auto inline-flex items-center justify-center p-[1px] mb-2 lg:mr-3 overflow-hidden text-xs font-medium  rounded-xl group bg-gradient-to-br from-[#6042ef] to-skin-pink  "
             >
-              <span className="relative w-full px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white ">
+              <span className="relative w-full px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0">
                 <div className="flex w-full items-center gap-2">
                   Allocation and Vesting
                 </div>
@@ -109,7 +115,7 @@ const Tokenomics = () => {
               onClick={() => setTap(3)}
               className="relative  w-auto inline-flex items-center justify-center p-[1px] mb-2 lg:mr-3 overflow-hidden text-xs font-medium  rounded-xl group bg-gradient-to-br from-[#6042ef] to-skin-pink  "
             >
-              <span className="relative w-full  px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white ">
+              <span className="relative w-full  px-1 lg:px-5 bg-[#0f131e] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0">
                 <div className="flex w-full items-center gap-2">Road Map</div>
               </span>
             </button>
@@ -117,12 +123,12 @@ const Tokenomics = () => {
         </ul>
       </header>
       {/* details  */}
-      <div className="div w-full bg-[#161a25] rounded-xl min-h-[190px]">
+      <div className="div w-full bg-[#161a25] rounded-xl min-h-[190px] overflow-x-auto">
         <div className="meettheteam-image-section">
           {/* Tabs 1 */}
 
           {tab === 1 ? (
-            <div className="token-sale-section sale-details">
+            <div className="token-sale-section sale-details py-3">
               <div className="token-sale-table-container">
                 <div className="token-sale-table">
                   <div className="token-sale-table-row table-header">
@@ -140,12 +146,13 @@ const Tokenomics = () => {
                     </div>
                   </div>
 
-                  <div className="token-sale-table-row table-row">
+                  <div className="token-sale-table-row table-row mx-10">
                     <div className="row-image">
-                      <img
-                        src="img/private-sale-row-image.svg"
+                      <Image
+                        src={privateImg}
                         className="token-sale-row-image"
-                        alt="private-sale-row-image.svg"
+                        alt="private-img"
+
                       />
                     </div>
                     <div className="header-text">Private Sale</div>
@@ -158,10 +165,9 @@ const Tokenomics = () => {
 
                   <div className="token-sale-table-row table-row">
                     <div className="row-image">
-                      <img
-                        src="img/pre-sale-row-image.svg"
+                      <Image
+                        src={preImg}
                         className="token-sale-row-image"
-                        alt="pre-sale-row-image.svg"
                       />
                     </div>
                     <div className="header-text">Pre Sale</div>
@@ -174,10 +180,9 @@ const Tokenomics = () => {
 
                   <div className="token-sale-table-row table-row">
                     <div className="row-image">
-                      <img
-                        src="img/public-sale-row-image.svg"
+                      <Image
+                        src={publicImg}
                         className="token-sale-row-image"
-                        alt="public-sale-row-image.svg"
                       />
                     </div>
                     <div className="header-text">Public Sale</div>
@@ -219,7 +224,7 @@ const Tokenomics = () => {
               </div>
             </div>
           ) : tab === 2 ? (
-            <div className="token-sale-section allocation-vesting team-member-hidden">
+            <div className="token-sale-section allocation-vesting team-member-hidden py-3">
               <div className="token-sale-table-container">
                 <div className="token-sale-table">
                   <div className="token-sale-table-row table-header">
@@ -242,7 +247,7 @@ const Tokenomics = () => {
                         {data.percent}
                       </div>
                       <div className="header-text withbgpad">{data.supply}</div>
-                      <div className="header-text withbgpad">
+                      <div className="header-text withbgpad header-text-last-child">
                         {data.vesting}
                       </div>
                     </div>
@@ -253,13 +258,13 @@ const Tokenomics = () => {
           ) : (
             <div className="token-sale-section text-white p-7 road-map team-member-hidden">
               <div className="platform-payment">
-                <div className="space-y-2">
+                <div className="">
                   <div className="payment-payment-title">
                     <span className="payment-yread text-[1em] md:text-[1.2em] font-bold  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
                       Build
                     </span>
                   </div>
-                  <div className="payment-payment-sub-title">
+                  <div className="payment-payment-sub-title mb-10">
                     Project is currently in development where tean is dedicated
                     to have initial beta ready by Q1 2023. Including yPredict
                     Predictions, yPredict Analytics, yPredict Terminal. This
@@ -273,13 +278,13 @@ const Tokenomics = () => {
               </div>
 
               <div className="platform-payment">
-                <div>
-                  <div className="payment-payment-title">
+                <div className="">
+                  <div className="payment-payment-title ">
                     <span className="payment-yread text-[1em] md:text-[1.2em] font-bold  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
                       Grow
                     </span>
                   </div>
-                  <div className="payment-payment-sub-title">
+                  <div className=" mb-10  payment-payment-sub-title">
                     Growth phase will focus mainly on stabilizing the core
                     offerings and organically growing the community and reaching
                     a 100m marketcap for YPRED tokens.{' '}
@@ -291,7 +296,7 @@ const Tokenomics = () => {
               </div>
 
               <div className="platform-payment">
-                <div>
+                <div className="">
                   <div className="payment-payment-title">
                     <span className="payment-yread text-[1em] md:text-[1.2em] font-bold  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
                       Engage & Scale

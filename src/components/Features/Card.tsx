@@ -11,7 +11,7 @@ const Card: React.FC<Props> = ({ items }) => {
     <>
       {items.map((item, i) => (
         <div
-          className="relative  w-full inline-flex items-center justify-center p-[1px] mb-2 mr-3 overflow-hidden text-xs font-medium  rounded-xl group bg-gradient-to-br from-[#6042ef] to-skin-pink  "
+          className="relative w-full inline-flex items-center justify-center p-[1px] mb-2 mr-3 overflow-hidden text-xs font-medium group rounded-xl bg-gradient-to-br from-[#6042ef] to-skin-pink  "
           key={i}
         >
           <span className="relative w-full px-5 bg-[#0f131e] py-2.5 transition-all ease-in duration-75 text-white ">
