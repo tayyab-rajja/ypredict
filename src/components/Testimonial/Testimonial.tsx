@@ -1,46 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
-<<<<<<< HEAD
-import { useEffect } from 'react'
-import quatationIcon from '../../../public/img/icon/quotes.png';
-import testimonal1 from '../../../public/img/testimonial.png';
-import blueLight from '../../../public/img/icon/blue_light_rotate.png';
-import playButton from "../../../public/img/icon/play-btn.png"
-const Testimonial: React.FC = () => {
-  // useEffect(() => {
-  //   const modal = document.getElementById("myModal");
-  //   const btn = document.getElementById("playBtn");
-  //   const btnMobile = document.getElementById("playBtnMobile");
-  //   const span = document.getElementsByClassName("close")[0];
-  //   const video = document.getElementById("video-testimonial");
-
-  //   btn.addEventListener("click", () => {
-  //     modal.style.display = "block";
-  //     video.currentTime = 0;
-  //     video.play();
-  //   });
-  //   btnMobile.addEventListener("click", () => {
-  //     modal.style.display = "block";
-  //     video.currentTime = 0;
-  //     video.play();
-  //   });
-  //   span.addEventListener("click", () => {
-  //     modal.style.display = "none";
-  //     video.pause();
-  //   });
-  //   window.addEventListener("click", () => {
-  //     if (event.target == modal) {
-  //       video.pause();
-  //       modal.style.display = "none";
-  //     }
-  //   });
-  // }, []);
-=======
 import quatationIcon from '../../../public/img/icon/quotes.png';
 import testimonal1 from '../../../public/img/testimonial.png';
 import blueLight from '../../../public/img/icon/blue_light_rotate.png';
 const Testimonial = () => {
->>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
   return (
     <div className="flex flex-col space-y-10 w-full lg:w-[80%] mx-auto  lg:flex-row main-container pb-10 justify-center lg:justify-between ">
       <div className="lg:flex relative gap-x-2  basis-[65%]">
@@ -65,11 +28,7 @@ const Testimonial = () => {
             </div>
           </div>
 
-<<<<<<< HEAD
-          <div className="hidden lg:block absolute margin-glow">
-=======
           <div className="hidden lg:block absolute right-0 top-0">
->>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
             <Image src={blueLight} alt="tarif" />
           </div>
         </div>
@@ -79,31 +38,6 @@ const Testimonial = () => {
           className="mx-auto pb-2 max-w-[190px]"
           src={testimonal1}
           alt="tarif"
-<<<<<<< HEAD
-
-        />
-        {/* <Image
-          src={playButton}
-          alt="play button"
-          className="testimonial-play-button"
-          id="playBtn"
-        /> */}
-        <div className="text-center">
-          <h2 className="text-[1em] md:text-[1.6em] font-bold  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
-            Tokenomics
-          </h2>
-          <p className="text-white text-base font-medium">
-            Quant at Hillhouse Capital
-          </p>
-        </div>
-        {/* <div id="myModal" className="modal">
-          <div className="modal-content">
-            <div className="close">&times;</div>
-            <video src="/video/testimonial_1.mp4" id="video-testimonial" />
-          </div>
-        </div> */}
-
-=======
         />
         <h2 className="text-[1em] md:text-[1.6em] font-bold  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
           Tokenomics
@@ -111,7 +45,6 @@ const Testimonial = () => {
         <p className="text-white text-base font-medium">
           Quant at Hillhouse Capital
         </p>
->>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
       </div>
     </div>
   );

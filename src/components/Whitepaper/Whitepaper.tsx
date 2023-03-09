@@ -3,11 +3,7 @@ import React from 'react';
 import whitePaper from '../../../public/img/whitepaper.png';
 const Whitepaper = () => {
   return (
-<<<<<<< HEAD
-    <div className="main-container justify-center gap-x-10 flex flex-col md:flex-row items-center mb-10">
-=======
     <div className="main-container justify-center gap-x-10 flex flex-col md:flex-row items-center">
->>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
       <h2 className="text-5xl font-bold  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
         <span className="ml-12"> Read Our</span>{' '}
         <span className="mt-2 block"> Whitepaper</span>

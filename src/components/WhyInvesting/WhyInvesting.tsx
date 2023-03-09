@@ -3,14 +3,8 @@ import { whyInvesting } from '@/constant';
 import Image from 'next/image';
 const WhyInvesting = () => {
   return (
-<<<<<<< HEAD
-    <div id="why_investing" className="main-container relative mt-40 sm:py-20 mb-20">
-      <div className="mt-10">
-      <div className="hidden lg:block absolute -z-10 left-0 top-[30%] right-0 mt-10">
-=======
     <div id="why_investing" className="main-container relative mt-10 py-20">
       <div className="hidden lg:block absolute -z-10 left-0 top-[20%] right-0">
->>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
         <Image
           src={'/img/icon/light2.png'}
           width={350}
@@ -38,12 +32,6 @@ const WhyInvesting = () => {
           ))}
         </div>
       </div>
-<<<<<<< HEAD
-      </div>
-
-      
-=======
->>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
     </div>
   );
 };
