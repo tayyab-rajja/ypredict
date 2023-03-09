@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap");
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
 
 @tailwind base;
 @tailwind components;
@@ -7,7 +11,11 @@
 @layer base {
   body {
     @apply bg-[#0f131e] h-full;
+<<<<<<< HEAD
     font-family: "Poppins", sans-serif;
+=======
+    font-family: 'Poppins', sans-serif;
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
   }
 }
 
@@ -174,7 +182,11 @@
   display: none !important;
 }
 .slick-dots li button:before {
+<<<<<<< HEAD
   font-family: "slick";
+=======
+  font-family: 'slick';
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
   font-size: 14px !important;
   line-height: 20px;
 
@@ -272,6 +284,11 @@
   transform: scale(0.94);
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
 /* Tabs to be displayed */
 
 .tab-wrapper {
@@ -286,7 +303,11 @@
 
 .tabs::before,
 .tabs::after {
+<<<<<<< HEAD
   content: "";
+=======
+  content: '';
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
   display: table;
 }
 
@@ -334,7 +355,11 @@
   transition: all 0.35s;
 }
 
+<<<<<<< HEAD
 .tab-switch:checked + .tab-label {
+=======
+.tab-switch:checked+.tab-label {
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
   background: #fff;
   color: #2c3e50;
   border-bottom: 0;
@@ -344,7 +369,11 @@
   top: -0.0625rem;
 }
 
+<<<<<<< HEAD
 .tab-switch:checked + label + .tab-content2 {
+=======
+.tab-switch:checked+label+.tab-content2 {
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
   z-index: 2;
   opacity: 1;
   transition: all 0.35s;
@@ -354,16 +383,25 @@ label.nav-header-links {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .tab-switch:checked + label {
   position: relative;
 }
 
 .tab-switch:checked + label::after {
+=======
+.tab-switch:checked+label {
+  position: relative;
+}
+
+.tab-switch:checked+label::after {
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
   height: 2px;
   position: absolute;
   right: 0;
   bottom: -5px;
   left: 0;
+<<<<<<< HEAD
   background: transparent
     linear-gradient(90deg, #ff387a 0%, #e6398c 17%, #a63eba 52%, #4845ff 100%)
     0% 0% no-repeat padding-box;
@@ -372,6 +410,14 @@ label.nav-header-links {
   content: "";
 }
 
+=======
+  background: transparent linear-gradient(90deg, #ff387a 0%, #e6398c 17%, #a63eba 52%, #4845ff 100%) 0% 0% no-repeat padding-box;
+  border-radius: 0.9648812413215637px 0.964881181716919px 0.9648812413215637px 0.9648812413215637px;
+  content: '';
+}
+
+
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
 /* Token Sale Stage-Properties. */
 
 .token-sale .nav-header-links {
@@ -427,8 +473,11 @@ label.nav-header-links {
   display: flex;
   justify-content: space-between;
   margin-bottom: calc(30px * var(--ZOOM-MULTIPLIER));
+<<<<<<< HEAD
   margin: 30px 220px 30px 220px ;
 
+=======
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
 }
 
 .table-header .header-text {
@@ -441,9 +490,12 @@ label.nav-header-links {
   justify-content: center;
   align-items: flex-end;
 }
+<<<<<<< HEAD
 .header-text-last-child{
   width: 250px;
 }
+=======
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
 
 .token-sale {
   background: #191753;
@@ -452,8 +504,12 @@ label.nav-header-links {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 .token-sale-title {
 }
+=======
+.token-sale-title {}
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
 
 .token-sale-table-container {
   z-index: 3;
@@ -466,7 +522,12 @@ label.nav-header-links {
   align-items: center;
   padding: 10px;
   border-radius: 17px;
+<<<<<<< HEAD
   margin: 0 220px 30px;
+=======
+  
+  margin: 0 0 24px;
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
 }
 
 .row-image {
@@ -530,6 +591,7 @@ label.nav-header-links {
   height: 108%;
 }
 
+<<<<<<< HEAD
 .hover-btn:hover {
   color: white;
   border-color: white;
@@ -566,3 +628,5 @@ label.nav-header-links {
 .testimonial-play-button:active{
   opacity: 0.5;
 }
+=======
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1

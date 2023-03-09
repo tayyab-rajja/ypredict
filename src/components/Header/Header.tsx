@@ -36,7 +36,11 @@ const Header: React.FC = () => {
             <Link href={'/community'}>Community</Link>
           </li>
           <li className="beta_btn">
+<<<<<<< HEAD
             <button className="text-skin-pink rounded-xl text-[1em] font-light border-2  border-skin-pink px-4 py-2 hover-btn">
+=======
+            <button className="text-skin-pink rounded-xl text-[1em] font-light border-2  border-skin-pink px-4 py-2">
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
               Beta Access
             </button>
           </li>

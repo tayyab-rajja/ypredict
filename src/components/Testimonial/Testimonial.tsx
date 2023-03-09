@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+<<<<<<< HEAD
 import { useEffect } from 'react'
 import quatationIcon from '../../../public/img/icon/quotes.png';
 import testimonal1 from '../../../public/img/testimonial.png';
@@ -34,6 +35,12 @@ const Testimonial: React.FC = () => {
   //     }
   //   });
   // }, []);
+=======
+import quatationIcon from '../../../public/img/icon/quotes.png';
+import testimonal1 from '../../../public/img/testimonial.png';
+import blueLight from '../../../public/img/icon/blue_light_rotate.png';
+const Testimonial = () => {
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
   return (
     <div className="flex flex-col space-y-10 w-full lg:w-[80%] mx-auto  lg:flex-row main-container pb-10 justify-center lg:justify-between ">
       <div className="lg:flex relative gap-x-2  basis-[65%]">
@@ -58,7 +65,11 @@ const Testimonial: React.FC = () => {
             </div>
           </div>
 
+<<<<<<< HEAD
           <div className="hidden lg:block absolute margin-glow">
+=======
+          <div className="hidden lg:block absolute right-0 top-0">
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
             <Image src={blueLight} alt="tarif" />
           </div>
         </div>
@@ -68,6 +79,7 @@ const Testimonial: React.FC = () => {
           className="mx-auto pb-2 max-w-[190px]"
           src={testimonal1}
           alt="tarif"
+<<<<<<< HEAD
 
         />
         {/* <Image
@@ -91,6 +103,15 @@ const Testimonial: React.FC = () => {
           </div>
         </div> */}
 
+=======
+        />
+        <h2 className="text-[1em] md:text-[1.6em] font-bold  bg-clip-text text-transparent bg-gradient-to-r from-skin-pink  via-skin-pink  to-[#572bf7]">
+          Tokenomics
+        </h2>
+        <p className="text-white text-base font-medium">
+          Quant at Hillhouse Capital
+        </p>
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
       </div>
     </div>
   );

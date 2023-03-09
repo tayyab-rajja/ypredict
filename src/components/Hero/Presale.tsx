@@ -51,7 +51,11 @@ const Presale = () => {
         </div>
 
         <div className="flex mt-12 flex-col gap-y-8 pb-6 border-b-2 border-dotted border-[#2e3141]">
+<<<<<<< HEAD
           <div className="flex mx-20 justify-between">
+=======
+          <div className="flex mx-8 justify-between">
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
             <div>
               <span className="text-white leading-[2px] text-sm  font-extralight">
                 Presale Price
@@ -69,7 +73,11 @@ const Presale = () => {
               </h2>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="flex mx-20 justify-between">
+=======
+          <div className="flex mx-8 justify-between">
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
             <div>
               <span className="text-white leading-[2px] text-sm  font-extralight">
                 Listing Price
@@ -178,7 +186,11 @@ const Presale = () => {
           <ul className="grid py-5 w-full lg:w-[60%] mx-auto gap-2 grid-cols-2">
             <li>
               <button className="relative  w-auto inline-flex items-center justify-center p-[1px] mb-2 lg:mr-3 overflow-hidden text-xs font-medium  rounded-xl group bg-gradient-to-br from-[#6042ef] to-skin-pink  ">
+<<<<<<< HEAD
                 <span className="relative w-full px-1 lg:px-5 bg-[#161a24] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0">
+=======
+                <span className="relative w-full px-1 lg:px-5 bg-[#161a24] py-2 transition-all ease-in duration-75 text-white ">
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
                   <div className="flex w-full items-center gap-2">
                     <Image
                       src="/img/icon/behance.png"
@@ -193,7 +205,11 @@ const Presale = () => {
             </li>
             <li>
               <button className="relative  w-auto inline-flex items-center justify-center p-[1px] mb-2 lg:mr-3 overflow-hidden text-xs font-medium  rounded-xl group bg-gradient-to-br from-[#6042ef] to-skin-pink  ">
+<<<<<<< HEAD
                 <span className="relative w-full px-1 lg:px-5 bg-[#161a24] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0 ">
+=======
+                <span className="relative w-full px-1 lg:px-5 bg-[#161a24] py-2 transition-all ease-in duration-75 text-white ">
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
                   <div className="flex w-full items-center gap-2">
                     <Image
                       src="/img/icon/behance.png"
@@ -208,7 +224,11 @@ const Presale = () => {
             </li>
             <li>
               <button className="relative  w-auto inline-flex items-center justify-center p-[1px] mb-2 lg:mr-3 overflow-hidden text-xs font-medium  rounded-xl group bg-gradient-to-br from-[#6042ef] to-skin-pink  ">
+<<<<<<< HEAD
                 <span className="relative w-full px-1 lg:px-5 bg-[#161a24] py-2 transition-all ease-in duration-75 text-white group-hover:bg-opacity-0">
+=======
+                <span className="relative w-full px-1 lg:px-5 bg-[#161a24] py-2 transition-all ease-in duration-75 text-white ">
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
                   <div className="flex w-full items-center gap-2">
                     <Image
                       src="/img/icon/behance.png"
@@ -216,13 +236,21 @@ const Presale = () => {
                       width={15}
                       height={15}
                     />
+<<<<<<< HEAD
                     <span > Buy with USD</span>
+=======
+                    <span> Buy with USD</span>
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
                   </div>
                 </span>
               </button>
             </li>
             <li>
+<<<<<<< HEAD
               {/* <button className="relative  w-auto inline-flex items-center justify-center p-[1px] mb-2 lg:mr-3 overflow-hidden text-xs font-medium  rounded-xl group bg-gradient-to-br from-[#6042ef] to-skin-pink  ">
+=======
+              <button className="relative  w-auto inline-flex items-center justify-center p-[1px] mb-2 lg:mr-3 overflow-hidden text-xs font-medium  rounded-xl group bg-gradient-to-br from-[#6042ef] to-skin-pink  ">
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
                 <span className="relative w-full px-1 lg:px-5 bg-[#161a24] py-2 transition-all ease-in duration-75 text-white ">
                   <div className="flex w-full items-center gap-2">
                     <Image
@@ -234,7 +262,11 @@ const Presale = () => {
                     <span> Buy with Card</span>
                   </div>
                 </span>
+<<<<<<< HEAD
               </button> */}
+=======
+              </button>
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
             </li>
           </ul>
         </div>

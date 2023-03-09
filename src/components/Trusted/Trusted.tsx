@@ -6,7 +6,11 @@ import Card from './Card';
 const Trusted = () => {
   return (
     <div className="main-container relative space-y-5">
+<<<<<<< HEAD
       <div className="flex flex-col lg:flex-row  items-end space-x-1 mt-20">
+=======
+      <div className="flex flex-col lg:flex-row  items-end space-x-1">
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
         <div className="basis-[60%] w-full">
           <h2 className="text-xl py-5 md:text-3xl text-center text-white font-bold">
             Trusted & Backed by VCs <br /> and Pro traders for a reason.
@@ -28,7 +32,11 @@ const Trusted = () => {
       </div>
       <div className=" flex flex-col lg:flex-row relative w-[100%] justify-center lg:justify-between">
         <div className="hiddex lg:block basis-1/2">
+<<<<<<< HEAD
           <div className="margin-img">
+=======
+          <div>
+>>>>>>> eccb218c5b0e47cba9ebbf343b52bb87864082b1
             <Image src={smileLight} alt="smile" />
           </div>
         </div>
