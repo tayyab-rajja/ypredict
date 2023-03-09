@@ -15,7 +15,7 @@ const Carousel = () => {
   };
   return (
     <>
-      <div className="overflow-hidden main-container py-10 text-white">
+      <div className="overflow-hidden main-container py-10 text-white t">
         <div className="text-center md:pt-10">
           <h2 className="text-[1.3em] md:text-[2em] w-full md:w-[85%] mx-auto leading-tight font-extrabold text-skin-white">
             Explore some of the incredibly powerful products of yPredict.ai
