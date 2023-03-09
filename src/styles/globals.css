@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,7 +7,7 @@
 @layer base {
   body {
     @apply bg-[#0f131e] h-full;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 }
 
@@ -174,7 +174,7 @@
   display: none !important;
 }
 .slick-dots li button:before {
-  font-family: 'slick';
+  font-family: "slick";
   font-size: 14px !important;
   line-height: 20px;
 
@@ -272,8 +272,6 @@
   transform: scale(0.94);
 }
 
-
-
 /* Tabs to be displayed */
 
 .tab-wrapper {
@@ -288,7 +286,7 @@
 
 .tabs::before,
 .tabs::after {
-  content: '';
+  content: "";
   display: table;
 }
 
@@ -336,7 +334,7 @@
   transition: all 0.35s;
 }
 
-.tab-switch:checked+.tab-label {
+.tab-switch:checked + .tab-label {
   background: #fff;
   color: #2c3e50;
   border-bottom: 0;
@@ -346,7 +344,7 @@
   top: -0.0625rem;
 }
 
-.tab-switch:checked+label+.tab-content2 {
+.tab-switch:checked + label + .tab-content2 {
   z-index: 2;
   opacity: 1;
   transition: all 0.35s;
@@ -356,21 +354,23 @@ label.nav-header-links {
   cursor: pointer;
 }
 
-.tab-switch:checked+label {
+.tab-switch:checked + label {
   position: relative;
 }
 
-.tab-switch:checked+label::after {
+.tab-switch:checked + label::after {
   height: 2px;
   position: absolute;
   right: 0;
   bottom: -5px;
   left: 0;
-  background: transparent linear-gradient(90deg, #ff387a 0%, #e6398c 17%, #a63eba 52%, #4845ff 100%) 0% 0% no-repeat padding-box;
-  border-radius: 0.9648812413215637px 0.964881181716919px 0.9648812413215637px 0.9648812413215637px;
-  content: '';
+  background: transparent
+    linear-gradient(90deg, #ff387a 0%, #e6398c 17%, #a63eba 52%, #4845ff 100%)
+    0% 0% no-repeat padding-box;
+  border-radius: 0.9648812413215637px 0.964881181716919px 0.9648812413215637px
+    0.9648812413215637px;
+  content: "";
 }
-
 
 /* Token Sale Stage-Properties. */
 
@@ -427,6 +427,8 @@ label.nav-header-links {
   display: flex;
   justify-content: space-between;
   margin-bottom: calc(30px * var(--ZOOM-MULTIPLIER));
+  margin: 30px 220px 30px 220px ;
+
 }
 
 .table-header .header-text {
@@ -439,6 +441,9 @@ label.nav-header-links {
   justify-content: center;
   align-items: flex-end;
 }
+.header-text-last-child{
+  width: 250px;
+}
 
 .token-sale {
   background: #191753;
@@ -447,7 +452,8 @@ label.nav-header-links {
   overflow: hidden;
 }
 
-.token-sale-title {}
+.token-sale-title {
+}
 
 .token-sale-table-container {
   z-index: 3;
@@ -460,8 +466,7 @@ label.nav-header-links {
   align-items: center;
   padding: 10px;
   border-radius: 17px;
-  
-  margin: 0 0 24px;
+  margin: 0 220px 30px;
 }
 
 .row-image {
@@ -525,3 +530,39 @@ label.nav-header-links {
   height: 108%;
 }
 
+.hover-btn:hover {
+  color: white;
+  border-color: white;
+}
+
+.margin-img{
+  margin-top: -80px; 
+  margin-left: 130px;
+  width: 80%;
+}
+.margin-glow{
+  margin-top: -40px;
+  margin-left: -27px;
+  width: 50%;
+}
+
+.testimonial-play-button {
+  width: 6.6vw;
+  height: 6.6vw;
+  right: 17%;
+  top: calc(50% - 40px);
+  cursor: pointer;
+}
+.testimonial-play-button-mobile{
+  display: none;
+}
+
+.testimonial-play-button:hover{
+  opacity: 0.9;
+  transform: scale(1.1);
+  transition: all .5s ease-in-out;
+}
+
+.testimonial-play-button:active{
+  opacity: 0.5;
+}
