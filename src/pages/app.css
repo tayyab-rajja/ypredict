@@ -5,3 +5,680 @@
 div#__next {
   overflow: hidden;
 }
+.patterns {
+  background: url(../../public/img/pattern.png) no-repeat top/100% 100%;
+  min-height: 110px;
+}
+.patterns:hover {
+  background: url(../../public/img/pattern_glow.png) no-repeat top/100% 100%;
+  min-height: 110px;
+  transition: all 0.6s ease-in-out;
+}
+div#__next {
+  overflow: hidden;
+}
+@media only screen and (max-width: 1024px) {
+  .margin-img {
+    margin-top: -50px;
+    margin-left: 100px;
+    width: 80%;
+  }
+  .token-sale-table {
+    padding-left: calc(10% * var(--ZOOM-MULTIPLIER));
+    padding-right: calc(10% * var(--ZOOM-MULTIPLIER));
+  }
+
+  .token-sale-left-bg,
+  .token-sale-right-bg {
+    display: none;
+  }
+
+  .token-sale-table-container {
+    overflow-x: scroll;
+  }
+
+  .token-sale-table {
+    width: 1024px;
+  }
+
+  .token-sale-table .tabs {
+    white-space: nowrap;
+  }
+
+  .read-white-paper-image .pdf-icon {
+    position: static;
+    max-width: 35px;
+  }
+
+  .why-investing-wrapper p.title {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .text-box-content {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .margin-img {
+    margin-top: -50px;
+    margin-left: 100px;
+    width: 80%;
+  }
+  .testimonial-section .message {
+    padding-top: 200px;
+  }
+  .message .content-1 {
+    font-size: 20px;
+  }
+  .message .content-2 {
+    font-size: 14px;
+  }
+  .message > img {
+    margin-left: 30px;
+    width: 30px;
+    height: 40px;
+    margin-top: 70px;
+  }
+  .team-member-info {
+    width: calc(100%);
+    margin: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .why-investing-wrapper p.title {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .content-wrapper p.content {
+    color: #434343;
+  }
+  .sc-evZas.iQsfUR > div:not(:nth-child(2)) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 844px) {
+  .testimonial-section .message {
+    padding-top: 147px;
+  }
+  .testimonial {
+    margin-top: 0px;
+    height: 400px;
+  }
+  .content-row img {
+    width: 100px;
+  }
+  .accordion:after {
+    height: 40px;
+    width: 40px;
+    right: 25px;
+    background-size: 40px;
+    top: 26px;
+  }
+  .acc-answer-text {
+    font-size: 16px;
+  }
+  .feature-text .title {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .why-investing-wrapper p.title {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 24px;
+  }
+  .aisection-data p {
+    margin-bottom: 24px;
+  }
+  .token-sale {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .margin-img {
+    margin-top: -30px;
+    margin-left: 70px;
+    width: 80%;
+  }
+  .testimonial {
+    background: #f2f2f2;
+    height: 450px;
+    padding-bottom: 80px;
+  }
+  .testimonial-section .message {
+    padding-top: 0px;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .testimonial-section .message img {
+    margin-left: 0;
+    margin-top: 30px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .message .content-1 {
+    font-size: 24px;
+    color: #fff;
+  }
+  .message .content-2 {
+    font-size: 14px;
+    color: #fff;
+  }
+  .message .content {
+    margin-top: 20px;
+    width: 60%;
+  }
+
+  .content-row img {
+    width: 80px;
+  }
+  .userWillSlide {
+    display: none;
+  }
+
+  .feature-wrapper span {
+    font-size: 2rem;
+    color: #191753;
+    font-weight: 500;
+  }
+
+  .feature-wrapper {
+    flex-direction: column;
+  }
+
+  .feature-wrapper span {
+    text-align: center;
+    width: 100%;
+    margin: 0 0 40px;
+  }
+
+  .feature-wrapper ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-wrapper ul li {
+    width: 60%;
+    margin: 12px;
+  }
+
+  .card-wrapper {
+    flex-direction: column-reverse;
+    margin: 8rem auto;
+    padding: 0 15px;
+  }
+
+  .predict-bg {
+    background: #ffffff;
+  }
+
+  .card_trusted_backed {
+    margin-left: 5px;
+  }
+
+  .card-block {
+    flex: 0 0 100%;
+  }
+
+  .why-investing-wrapper {
+    padding: 30px 8px;
+  }
+
+  .why-investing-wrapper p.title {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 18px;
+  }
+  .tokenPage {
+    background: #fff;
+  }
+  .text-box-content {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial-section .message {
+    padding-top: 16px;
+    padding-left: 0px;
+  }
+  .message > img {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .message .content-1 {
+    font-size: 20px;
+  }
+  .message .content-2 {
+    font-size: 12px;
+  }
+  .testimonial-section .message img {
+    margin-top: 14px;
+  }
+  .message .content {
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .margin-img {
+    margin-top: -30px;
+    margin-left: 50px;
+    width: 80%;
+  }
+  .content-row img {
+    width: 50px;
+  }
+  .tabs {
+    overflow-x: scroll;
+    padding-bottom: 10px;
+    display: flex;
+    width: 320px;
+  }
+
+  .tab {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .gray_background {
+    background-color: #f8f8f8;
+  }
+
+  .platform-feature-section {
+    flex-direction: column-reverse;
+    padding-top: 20px;
+  }
+
+  .platform-payment {
+    flex-direction: column;
+  }
+
+  .features-image-section {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .feature-image {
+    left: 0%;
+    width: 100%;
+  }
+
+  .pink {
+    animation: bottomToTop 5s linear 0s infinite;
+  }
+
+  .green {
+    animation: bottomToTop 5s linear 1s infinite;
+  }
+
+  .yellow {
+    animation: bottomToTop 5s linear 2s infinite;
+  }
+
+  .purple {
+    animation: bottomToTop 5s linear 3s infinite;
+  }
+
+  .blue {
+    animation: bottomToTop 5s linear 4s infinite;
+  }
+
+  .orange {
+    animation: bottomToTop 5s linear 5s infinite;
+  }
+
+  .gray_background {
+    background-color: #f8f8f8;
+  }
+
+  .features-section {
+    width: 100%;
+  }
+
+  .platform-payment-image {
+    width: 100%;
+  }
+
+  .platform-payment-info {
+    width: 100%;
+  }
+
+  .revenue-sharing {
+    flex-direction: column-reverse;
+  }
+
+  .revenue-sharing-info {
+    width: 100%;
+  }
+
+  .read-white-paper {
+    flex-direction: column;
+  }
+
+  .read-white-paper-info {
+    margin-bottom: 20px;
+  }
+
+  .read-white-paper-image {
+    width: 100%;
+  }
+
+  .read-white-paper-info {
+    width: 100%;
+  }
+
+  .token-allocation-img {
+    max-width: 100%;
+  }
+
+  .statistics-block {
+    width: 100%;
+  }
+
+  .statistics-text {
+    width: calc(35% * var(--ZOOM-MULTIPLIER));
+    font-size: 14px;
+  }
+
+  .statistics-percent,
+  .statistics-token {
+    font-size: 14px;
+  }
+
+  .statistics-section {
+    padding-left: calc(2% * var(--ZOOM-MULTIPLIER));
+    padding-right: calc(2% * var(--ZOOM-MULTIPLIER));
+  }
+
+  .interested-in-investing-section {
+  }
+
+  .interested-text-span {
+    font-size: calc(28px * var(--ZOOM-MULTIPLIER));
+    margin-right: 0;
+    line-height: calc(40px * var(--ZOOM-MULTIPLIER));
+  }
+
+  .interest-ypredict {
+    font-size: calc(28px * var(--ZOOM-MULTIPLIER));
+    line-height: calc(40px * var(--ZOOM-MULTIPLIER));
+  }
+
+  .video-feature {
+    margin-top: 30px;
+    padding: 4px 8px;
+    margin-bottom: 30px;
+  }
+
+  .kyc-audit {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .video-feature .first-line {
+    line-height: 10px;
+    font-size: 10px;
+  }
+
+  .video-feature-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  div.comparison tr td.title-row {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+
+  .footer {
+    padding: 50px 5% 200px 5%;
+  }
+
+  .footer-logo {
+    margin-bottom: 25px;
+  }
+
+  .footer-row-1 {
+    flex-direction: column;
+  }
+
+  .footer-col-1 {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .footer-col-links {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .inquire-interested-image {
+    left: -150px;
+  }
+
+  .active:after {
+    background-image: url(/img/accordian-expanded.svg);
+  }
+
+  .acc-title {
+    padding-right: 70px;
+  }
+
+  .footer-notes,
+  .footer-link-title,
+  .footer-link-anchor {
+    font-size: calc(24px);
+    line-height: calc(34px);
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .nav-header {
+    display: none;
+  }
+
+  .hamberguer-menu-section {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  .header-logo {
+    width: 200px;
+  }
+
+  .nav-header {
+    position: absolute;
+    flex-direction: column;
+    top: 120%;
+    width: 100%;
+    background: white;
+  }
+
+  .nav-header-links {
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 0;
+    margin-bottom: 15px;
+    z-index: 4;
+    padding: 0 5px;
+  }
+
+  .nav-header-button-signin {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .nav-header-button-register {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  a.nav-header-links.active::after {
+    width: 100%;
+  }
+
+  .interested-text {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .interested-text-and-cta {
+    align-items: center;
+  }
+
+  .interested-text-span {
+    text-align: center;
+  }
+
+  .nav-header.visible {
+    display: flex;
+  }
+
+  .token-info {
+    flex-direction: column-reverse;
+    margin-top: calc(80px * var(--ZOOM-MULTIPLIER));
+  }
+
+  .token-info-title {
+    text-align: center;
+  }
+
+  .payment-payment-title {
+    text-align: center;
+  }
+
+  .pdf-icon {
+    margin-top: calc(25px * var(--ZOOM-MULTIPLIER));
+    margin-bottom: calc(25px * var(--ZOOM-MULTIPLIER));
+  }
+
+  .read-white-paper-sub-title,
+  .read-white-paper-title,
+  .sub-title-text,
+  .revenue-share-sub-title,
+  .revenue-sharing-title {
+    text-align: center;
+  }
+
+  .token-info-text {
+    width: 100%;
+  }
+
+  .video-play-image {
+    width: 50px;
+  }
+
+  .teaser-video {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .meettheteam-image-section {
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  .team-member {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .team-member-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .token-sale-details {
+    width: calc(250px * var(--ZOOM-MULTIPLIER));
+  }
+
+  .token-info-image.footer-info-image {
+    width: 30%;
+  }
+
+  .token-info-image.footer-info-image.desktop {
+  }
+
+  .token-info-image.footer-info-image.mobile {
+    margin-bottom: 0;
+  }
+
+  .footer-info-video-and-cta {
+    width: 50%;
+  }
+
+  .feature-text .title {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .platform-feature-title {
+    font-size: calc(40px * var(--ZOOM-MULTIPLIER));
+    line-height: calc(50px * var(--ZOOM-MULTIPLIER));
+    margin-bottom: calc(20px * var(--ZOOM-MULTIPLIER));
+  }
+
+  .feature-text p {
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  .why-investing-section {
+    background-size: 90% 30%;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .table-footer {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 17px;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+
+  .token-sale-table-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: calc(30px * var(--ZOOM-MULTIPLIER));
+    margin: 11px 29px 28px 25px;
+  }
+  .token-sale-table-row.table-row {
+    background: #4845ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 17px;
+    margin: 0 22px 25px !important;
+  }
+  .token-sale-details {
+    width: calc(10px * var(--ZOOM-MULTIPLIER));
+  }
+
+  .token-info-image.footer-info-image {
+    width: 40%;
+  }
+  .accordion:after {
+    top: 32px;
+  }
+}

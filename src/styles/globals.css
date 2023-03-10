@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,7 +7,7 @@
 @layer base {
   body {
     @apply bg-[#0f131e] h-full;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 }
 
@@ -174,7 +174,7 @@
   display: none !important;
 }
 .slick-dots li button:before {
-  font-family: "slick";
+  font-family: 'slick';
   font-size: 14px !important;
   line-height: 20px;
 
@@ -286,7 +286,7 @@
 
 .tabs::before,
 .tabs::after {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -369,7 +369,7 @@ label.nav-header-links {
     0% 0% no-repeat padding-box;
   border-radius: 0.9648812413215637px 0.964881181716919px 0.9648812413215637px
     0.9648812413215637px;
-  content: "";
+  content: '';
 }
 
 /* Token Sale Stage-Properties. */
@@ -427,8 +427,7 @@ label.nav-header-links {
   display: flex;
   justify-content: space-between;
   margin-bottom: calc(30px * var(--ZOOM-MULTIPLIER));
-  margin: 30px 220px 30px 220px ;
-
+  margin: 30px 220px 30px 220px;
 }
 
 .table-header .header-text {
@@ -441,7 +440,7 @@ label.nav-header-links {
   justify-content: center;
   align-items: flex-end;
 }
-.header-text-last-child{
+.header-text-last-child {
   width: 250px;
 }
 
@@ -455,10 +454,18 @@ label.nav-header-links {
 .token-sale-title {
 }
 
-.token-sale-table-container {
-  z-index: 3;
+.token-sale-table-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: calc(30px * var(--ZOOM-MULTIPLIER));
+  margin: 11px 94px 30px 97px;
 }
-
+.token-sale-table-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: calc(30px * var(--ZOOM-MULTIPLIER));
+  margin: 11px 98px 28px 103px;
+}
 .token-sale-table-row.table-row {
   background: #4845ff;
   color: #fff;
@@ -466,9 +473,8 @@ label.nav-header-links {
   align-items: center;
   padding: 10px;
   border-radius: 17px;
-  margin: 0 220px 30px;
+  margin: 0 99px 30px;
 }
-
 .row-image {
   width: 72px;
   height: 72px;
@@ -535,12 +541,12 @@ label.nav-header-links {
   border-color: white;
 }
 
-.margin-img{
-  margin-top: -80px; 
+.margin-img {
+  margin-top: -80px;
   margin-left: 130px;
   width: 80%;
 }
-.margin-glow{
+.margin-glow {
   margin-top: -40px;
   margin-left: -27px;
   width: 50%;
@@ -553,16 +559,16 @@ label.nav-header-links {
   top: calc(50% - 40px);
   cursor: pointer;
 }
-.testimonial-play-button-mobile{
+.testimonial-play-button-mobile {
   display: none;
 }
 
-.testimonial-play-button:hover{
+.testimonial-play-button:hover {
   opacity: 0.9;
   transform: scale(1.1);
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-.testimonial-play-button:active{
+.testimonial-play-button:active {
   opacity: 0.5;
 }

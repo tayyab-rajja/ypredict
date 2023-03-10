@@ -51,8 +51,8 @@ const Presale = () => {
         </div>
 
         <div className="flex mt-12 flex-col gap-y-8 pb-6 border-b-2 border-dotted border-[#2e3141]">
-          <div className="flex mx-20 justify-between">
-            <div>
+          <div className="flex sm:mx-20 mx-10 justify-between">
+            <div className='sm:mx-10'>
               <span className="text-white leading-[2px] text-sm  font-extralight">
                 Presale Price
               </span>
@@ -60,7 +60,7 @@ const Presale = () => {
                 $0.0375
               </h2>
             </div>
-            <div>
+            <div className='sm:mx-10'>
               <span className="text-white leading-[2px] text-sm  font-extralight">
                 Presale Goal
               </span>
@@ -69,8 +69,8 @@ const Presale = () => {
               </h2>
             </div>
           </div>
-          <div className="flex mx-20 justify-between">
-            <div>
+          <div className="flex sm:mx-20 mx-10 justify-between">
+            <div className='sm:mx-10'>
               <span className="text-white leading-[2px] text-sm  font-extralight">
                 Listing Price
               </span>
@@ -78,7 +78,7 @@ const Presale = () => {
                 $0.045
               </h2>
             </div>
-            <div>
+            <div className='sm:mx-10'>
               <span className="text-white leading-[2px] text-sm  font-extralight">
                 ROI at Listing
               </span>

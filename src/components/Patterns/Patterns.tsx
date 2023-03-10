@@ -16,3 +16,10 @@ const Patterns = () => {
 };
 
 export default Patterns;
+
+{/* <div className="relative w-full ">
+      <Image
+      src={hImage}
+      alt=''
+      />
+    </div> */}
